@@ -1,0 +1,50 @@
+/* algemeen */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* end algemeen */
+/* header */
+header nav {
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav .nav-links {
+    list-style: none;
+    width: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: start;
+}
+header nav .knop {
+    border: solid 1px white;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+/* end header */
+/* main */
+/* sectie1 */
+main .sectie1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+main .sectie1 .tekst {
+    grid-row: 1 -2;
+    grid-column: 1 ;
+}
+.zeezicht-foto{
+    grid-row: 1 -2;
+    grid-column: 3;
+}
+main .sectie1 .tekst .tekst-titel{
+    align-content: flex-start;
+}
+main .sectie1 .tekst .tekst-uitleg{
+    align-content: flex-end;
+}
+/* end main */
