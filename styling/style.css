@@ -28,8 +28,8 @@ header nav .nav-links {
 }
 header nav .knop {
     font-size: large;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
+    color: white;
 }
 /* end header */
 /* main */
@@ -51,6 +51,35 @@ main .sectie1 .tekst {
     grid-column: 3;
 }
 /* end sectie1 */
+/* sectie2 */
+main .sectie2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: sticky;
+}
+main .sectie2 .korting{
+    background-color: blue;
+    display: flex;
+    width: 100px;
+    height: 50px;
+    color: white;
+    align-items: center;
+    border-radius: 40%;
+    justify-content: center;
+}
 /* end main */
 /* footer */
-footer nav {}
+footer nav {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+/* end footer */
